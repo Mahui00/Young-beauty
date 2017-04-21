@@ -34,17 +34,19 @@
     /-----------------
     |
     |-- commponents 组件文件夹
+    |
     |---- comment.js 公共组件
     |---- ***.js 个人组件添加
     |
     |-- css css样式 base.css 去除默认样式css cols.scss 适配视口scss 
+    |
     |---- display 展吧css样式放置文件夹
     |---- home 首页css样式放置文件夹
-    |---- ind 个性化界面放置文件夹
-    |---- initial 闪屏界面放置文件夹
-    |---- login 登陆界面放置文件夹
-    |---- person 个人中心放置文件夹
-    |---- register 注册界面放置文件夹
+    |---- ind 个性化css样式放置文件夹
+    |---- initial 闪屏css样式放置文件夹
+    |---- login 登陆css样式放置文件夹
+    |---- person 个人中心css样式放置文件夹
+    |---- register 注册css样式放置文件夹
     |
     |-- js 效果js文件夹 
     |
