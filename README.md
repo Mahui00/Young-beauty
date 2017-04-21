@@ -10,18 +10,14 @@
 
 ##文件夹结构
 
-/-------------------
-|--- images/ 所有图片
-|
-|--- js/ 库  js文件
-|
-|--- css/ 基础样式 public.css bootstrap.css css文件
-|
-|--- index.html
-|
-|--- **.html
-|
-
+    /-------------------
+    |--- images/ 所有图片
+    |
+    |--- js/ 库  js文件
+    |
+    |--- css/ 基础样式 public.css  css文件
+    |
+ 
 
     
 
