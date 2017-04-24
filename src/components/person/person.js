@@ -6,7 +6,6 @@ import {
     Link
 } from 'react-router-dom'
 
-import Menu from '../common';
 import P from './syh_person';
 class Person extends Component {
     render() {

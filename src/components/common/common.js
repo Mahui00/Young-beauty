@@ -1,6 +1,6 @@
 import  React, {Component} from 'react';
 
-import "../css/common/common.css";
+import "./css/common.css";
 
 //menu tab栏组件 s
 class Menu extends Component{

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Menu from '../common';
+import Menu from '../common/common';
 
 class Home extends Component{
     render(){
