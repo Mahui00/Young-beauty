@@ -1,0 +1,58 @@
+@import url(../base.css);
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 48.66667px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+.syh_menu {
+  width: 100%;
+  height: 0.98rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.01rem solid #e4e4e4; }
+  .syh_menu li {
+    display: flex;
+    width: 25%;
+    height: 100%; }
+    .syh_menu li a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      color: #d3d3d3; }
+      .syh_menu li a span {
+        width: 0.5rem;
+        height: 0.5rem; }
+    .syh_menu li .syh_home_icons {
+      background: url("../../images/syh_home.png") no-repeat center/cover; }
+    .syh_menu li .syh_ind_icons {
+      background: url("../../images/syh_ind.png") no-repeat center/cover; }
+    .syh_menu li .syh_display_icons {
+      background: url("../../images/syh_display.png") no-repeat center/cover; }
+    .syh_menu li .syh_person_icons {
+      background: url("../../images/syh_person.png") no-repeat center/cover; }
