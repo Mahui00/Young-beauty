@@ -1,33 +1,37 @@
 import React, {Component} from 'react';
-import './App.css';
+
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom'
 
 //npm install react-route-dom
-// import {
-//     BrowserRouter as Router,
-//     Route,
-//     Link
-// } from 'react-router-dom'
 
-import './components/syh_person';
-import Person from './components/syh_person';
+//----首页
+import Home from './components/home/home';
 
-class Page extends Component {
-    render() {
-        return (
-            <div>
-                <Person/>
-            </div>
-        )
-    }
-}
+//----个人中心
+import Person from './components/person/person';
+
+// //----个性化
+// import Ind from './components/ind/ind';
+
+// //----展吧
+// import Display from './components/display/display';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Page/>
-            </div>
-        );
+            <Router>
+                <div className="App">
+                    <Route exact path="/" component={Home}/>
+                    {/*<Route path="/ind" component={Ind}/>*/}
+                    {/*<Route path="/display" component={Display}/>*/}
+                    <Route path="/person" component={Person}/>
+                </div>
+            </Router>
+        )
     }
 }
 

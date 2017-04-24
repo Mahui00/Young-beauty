@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #fbfbf1; }
+
+.syh_person_banner {
+  width: 100%;
+  height: 3.42rem;
+  background: url("../images/syh_persontop.png") no-repeat center/cover; }
