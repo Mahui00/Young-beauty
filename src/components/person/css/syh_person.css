@@ -68,3 +68,6 @@ body {
         width: 0.07rem;
         height: 0.07rem;
         background: url("../images/syh_juhao.png") no-repeat center/cover; }
+
+.viewMore {
+  margin-top: 0.8rem; }

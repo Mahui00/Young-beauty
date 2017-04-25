@@ -6,13 +6,13 @@ import {
     Link
 } from 'react-router-dom'
 
-import P from './syh_person';
+import PersonLogin from './syh_person_afterLogin';
 class Person extends Component {
     render() {
         return (
             <Router>
                 <div>
-                    <Route path="/" component={P}/>
+                    <Route path="/" component={PersonLogin}/>
                 </div>
             </Router>
         )

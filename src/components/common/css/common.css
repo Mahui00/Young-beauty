@@ -129,3 +129,64 @@
         width: 0.01rem;
         height: 1.28rem;
         background: #ededed; }
+
+.syh_viewMore {
+  width: 100%;
+  height: 4.6rem;
+  padding: 0 0.24rem; }
+  .syh_viewMore .syh_more_inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+    .syh_viewMore .syh_more_inner .syh_title {
+      color: #f9d946;
+      font-size: 0.26rem; }
+  .syh_viewMore .syh_main {
+    width: 100%;
+    height: 4.15rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    box-shadow: 0rem 0rem 0.1rem #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .syh_viewMore .syh_main ul {
+      width: 6.40rem;
+      height: 3.45rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between; }
+    .syh_viewMore .syh_main li {
+      width: 1.82rem;
+      height: 1.46rem;
+      border-radius: 0.1rem;
+      box-shadow: 0rem 0.02rem 0.1rem #e2e2e2;
+      background: #fff; }
+      .syh_viewMore .syh_main li a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: #696969; }
+      .syh_viewMore .syh_main li span {
+        width: 0.8rem;
+        height: 0.68rem;
+        background: #222222; }
+      .syh_viewMore .syh_main li .syh_shop {
+        background: url("../images/syh_personicons.png") no-repeat 0 0/4rem; }
+      .syh_viewMore .syh_main li .syh_collect {
+        background: url("../images/syh_personicons.png") no-repeat 0 -0.68rem/4rem; }
+      .syh_viewMore .syh_main li .syh_timeLine {
+        background: url("../images/syh_personicons.png") no-repeat -0.8rem 0/4rem; }
+      .syh_viewMore .syh_main li .syh_address {
+        background: url("../images/syh_personicons.png") no-repeat -0.8rem -0.68rem/4rem; }
+      .syh_viewMore .syh_main li .syh_contact {
+        background: url("../images/syh_personicons.png") no-repeat -1.6rem 0/4rem; }
+      .syh_viewMore .syh_main li .syh_set {
+        background: url("../images/syh_personicons.png") no-repeat -1.6rem -0.68rem/4rem; }

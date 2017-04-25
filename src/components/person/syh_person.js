@@ -9,6 +9,8 @@ import  Menu from '../common/common';
 //---我的订单
 import Myorder from '../common/myorder';
 
+//---查看更多
+import ViewMore from '../common/viewmore';
 //公共组件引入e
 class P extends Component {
     render() {
@@ -27,6 +29,9 @@ class P extends Component {
                 </div>
                 <Myorder/>
                 <Menu/>
+                <div className="viewMore">
+                    <ViewMore/>
+                </div>
             </div>
         )
     }
