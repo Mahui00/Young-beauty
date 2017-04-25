@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import  './css/syh_person.css';
-//公共组件引入
+//公共组件引入s
 
 //---tab栏
 import  Menu from '../common/common';
@@ -9,6 +9,7 @@ import  Menu from '../common/common';
 //---我的订单
 import Myorder from '../common/myorder';
 
+//公共组件引入e
 class P extends Component {
     render() {
         return (

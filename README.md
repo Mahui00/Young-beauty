@@ -19,40 +19,35 @@
     
 ## public文件夹结构
 
-    /-----------------
-    |
-    |-- admin   登录注册界面 
-    |-------- login登陆界面 register注册页面
-    |
-    |-- default 前台展示界面
-    |-------- display展吧界面 home首页界面 ind个性化界面 initial闪屏页界面 person个人中心界面
-    |
-    |-----
- 
+
 ## src文件夹结构
 
     /-----------------
     |
     |-- commponents 组件文件夹
-    |
+    |--- common 公共组件
+    |---- css 组件css样式
+    |---- images 组件所需图片
     |---- comment.js 公共组件
     |---- ***.js 个人组件添加
     |
-    |-- css css样式 base.css 去除默认样式css cols.scss 适配视口scss 
     |
-    |---- display 展吧css样式放置文件夹
-    |---- home 首页css样式放置文件夹
-    |---- ind 个性化css样式放置文件夹
-    |---- initial 闪屏css样式放置文件夹
-    |---- login 登陆css样式放置文件夹
-    |---- person 个人中心css样式放置文件夹
-    |---- register 注册css样式放置文件夹
+    |-- display 展吧组件放置区
+    |---- css 组件css样式
+    |---- images 展吧图片
+    |
+    |-- ind 个性化组件放置区
+    |---- css 组件css样式
+    |---- images 个性化图片
+    |
+    |
+    |-- home>>>person同上
     |
     |-- js 效果js文件夹 
     |
-    |-- images 所有图片放置文件夹 
+    |-- css css样式 base.css 去除默认样式css cols.scss 适配视口scss
     |
-    
+    |
 ## 任务分配
  
     ##### 孙勇华: 登录注册 展吧
