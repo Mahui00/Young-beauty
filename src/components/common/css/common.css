@@ -32,7 +32,11 @@
   height: 0.98rem;
   display: flex;
   justify-content: space-between;
-  border-top: 0.01rem solid #e4e4e4; }
+  border-top: 0.01rem solid #e4e4e4;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
   .syh_menu li {
     display: flex;
     width: 25%;
@@ -56,3 +60,72 @@
       background: url("../images/syh_display.png") no-repeat center/cover; }
     .syh_menu li .syh_person_icons {
       background: url("../images/syh_person.png") no-repeat center/cover; }
+
+.syh_order_from {
+  width: 100%;
+  height: 2.68rem;
+  padding: 0 0.24rem;
+  padding-top: 0.20rem; }
+  .syh_order_from .syh_order {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .syh_order_from .syh_order .syh_title {
+      color: #f9d946;
+      font-size: 0.26rem; }
+    .syh_order_from .syh_order .syh_content {
+      width: 100%;
+      height: 2.1rem;
+      border-radius: 0.1rem;
+      background: #fff;
+      box-shadow: 0rem 0rem 0.1rem #e2e2e2;
+      position: relative; }
+    .syh_order_from .syh_order .syh_main {
+      width: 100%;
+      height: 1.46rem;
+      position: absolute;
+      left: 0;
+      bottom: 0.24rem;
+      display: flex; }
+      .syh_order_from .syh_order .syh_main li {
+        width: 25%;
+        height: 100%; }
+        .syh_order_from .syh_order .syh_main li a {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: space-between;
+          align-items: center; }
+      .syh_order_from .syh_order .syh_main .syh_iconsBox {
+        width: 99%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.26rem; }
+        .syh_order_from .syh_order .syh_main .syh_iconsBox .syh_icons {
+          width: 100%;
+          height: 1.05rem; }
+        .syh_order_from .syh_order .syh_main .syh_iconsBox .syh_pay_icons1 {
+          background: url("../images/syh_nopay.png") no-repeat center/cover; }
+        .syh_order_from .syh_order .syh_main .syh_iconsBox .syh_pay_icons2 {
+          background: url("../images/syh_take.png") no-repeat center/cover; }
+        .syh_order_from .syh_order .syh_main .syh_iconsBox .syh_pay_icons3 {
+          background: url("../images/syh_discuss.png") no-repeat center/cover; }
+        .syh_order_from .syh_order .syh_main .syh_iconsBox .syh_pay_icons4 {
+          background: url("../images/syh_service.png") no-repeat center/cover; }
+      .syh_order_from .syh_order .syh_main .syh_color1 {
+        color: #f3773b; }
+      .syh_order_from .syh_order .syh_main .syh_color2 {
+        color: #02adec; }
+      .syh_order_from .syh_order .syh_main .syh_color3 {
+        color: #ffc50c; }
+      .syh_order_from .syh_order .syh_main .syh_color4 {
+        color: #b2d233; }
+      .syh_order_from .syh_order .syh_main .syh_line {
+        width: 0.01rem;
+        height: 1.28rem;
+        background: #ededed; }
