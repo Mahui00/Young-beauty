@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-import Menu from '../common/common';
+import PersonTitle from '../common/personTitle';
 
 class Home extends Component{
     render(){
         return(
             <div>
-                <Menu/>
+                <PersonTitle title="我的订单" add="syh_empty"/>
             </div>
         )
     }

@@ -190,3 +190,38 @@
         background: url("../images/syh_personicons.png") no-repeat -1.6rem 0/4rem; }
       .syh_viewMore .syh_main li .syh_set {
         background: url("../images/syh_personicons.png") no-repeat -1.6rem -0.68rem/4rem; }
+
+.syh_personTitle {
+  width: 100%;
+  height: 0.9rem;
+  background: #f9d946;
+  padding: 0 0.24rem; }
+  .syh_personTitle .syh_titleTop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .syh_personTitle .syh_titleCenter {
+    width: 2.18rem;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 0.4rem; }
+    .syh_personTitle .syh_titleCenter span {
+      width: 0.07rem;
+      height: 0.07rem;
+      background: url("../images/syh_juhao.png") no-repeat center/cover; }
+  .syh_personTitle .syh_back {
+    width: 0.56rem;
+    height: 0.45rem;
+    background: url("../images/syh_back.png") no-repeat center/cover; }
+  .syh_personTitle .syh_add {
+    width: 0.56rem;
+    height: 0.45rem;
+    background: #000; }
+  .syh_personTitle .syh_empty {
+    width: 0.56rem;
+    height: 0.45rem; }
