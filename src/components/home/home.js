@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import PersonTitle from '../common/personTitle';
+import PersonTitle from '../common/persontitle';
 
 class Home extends Component{
     render(){
